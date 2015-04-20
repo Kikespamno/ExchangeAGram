@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		211B366A1AD86AE8008B2C46 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B36691AD86AE8008B2C46 /* FeedItem.swift */; };
 		212285DF1AD7D5AF00CCF253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212285DE1AD7D5AF00CCF253 /* AppDelegate.swift */; };
 		212285E21AD7D5AF00CCF253 /* ExchangeAGram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 212285E01AD7D5AF00CCF253 /* ExchangeAGram.xcdatamodeld */; };
-		212285E41AD7D5AF00CCF253 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212285E31AD7D5AF00CCF253 /* ViewController.swift */; };
 		212285E71AD7D5AF00CCF253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212285E51AD7D5AF00CCF253 /* Main.storyboard */; };
 		212285E91AD7D5AF00CCF253 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212285E81AD7D5AF00CCF253 /* Images.xcassets */; };
 		212285EC1AD7D5AF00CCF253 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 212285EA1AD7D5AF00CCF253 /* LaunchScreen.xib */; };
 		212285F81AD7D5AF00CCF253 /* ExchangeAGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212285F71AD7D5AF00CCF253 /* ExchangeAGramTests.swift */; };
+		212286021AD7DCF000CCF253 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212286011AD7DCF000CCF253 /* FeedViewController.swift */; };
+		212286041AD7EA4200CCF253 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212286031AD7EA4200CCF253 /* FeedCell.swift */; };
+		212286061AD7ECBB00CCF253 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212286051AD7ECBB00CCF253 /* MobileCoreServices.framework */; };
+		219864001ADD7E1D00D9E05E /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219863FF1ADD7E1D00D9E05E /* FilterViewController.swift */; };
+		219864021ADD8ABA00D9E05E /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219864011ADD8ABA00D9E05E /* FilterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +32,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		211B36691AD86AE8008B2C46 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		212285D91AD7D5AF00CCF253 /* ExchangeAGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeAGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		212285DD1AD7D5AF00CCF253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		212285DE1AD7D5AF00CCF253 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		212285E11AD7D5AF00CCF253 /* ExchangeAGram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExchangeAGram.xcdatamodel; sourceTree = "<group>"; };
-		212285E31AD7D5AF00CCF253 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		212285E61AD7D5AF00CCF253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		212285E81AD7D5AF00CCF253 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		212285EB1AD7D5AF00CCF253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		212285F11AD7D5AF00CCF253 /* ExchangeAGramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExchangeAGramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		212285F61AD7D5AF00CCF253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		212285F71AD7D5AF00CCF253 /* ExchangeAGramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeAGramTests.swift; sourceTree = "<group>"; };
+		212286011AD7DCF000CCF253 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedViewController.swift; path = ExchangeAGram.xcodeproj/../FeedViewController.swift; sourceTree = SOURCE_ROOT; };
+		212286031AD7EA4200CCF253 /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		212286051AD7ECBB00CCF253 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		219863FF1ADD7E1D00D9E05E /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		219864011ADD8ABA00D9E05E /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				212286061AD7ECBB00CCF253 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +72,7 @@
 		212285D01AD7D5AF00CCF253 = {
 			isa = PBXGroup;
 			children = (
+				211B36691AD86AE8008B2C46 /* FeedItem.swift */,
 				212285DB1AD7D5AF00CCF253 /* ExchangeAGram */,
 				212285F41AD7D5AF00CCF253 /* ExchangeAGramTests */,
 				212285DA1AD7D5AF00CCF253 /* Products */,
@@ -80,9 +92,12 @@
 			isa = PBXGroup;
 			children = (
 				212285DE1AD7D5AF00CCF253 /* AppDelegate.swift */,
-				212285E31AD7D5AF00CCF253 /* ViewController.swift */,
 				212285E51AD7D5AF00CCF253 /* Main.storyboard */,
 				212285E81AD7D5AF00CCF253 /* Images.xcassets */,
+				212286011AD7DCF000CCF253 /* FeedViewController.swift */,
+				212286031AD7EA4200CCF253 /* FeedCell.swift */,
+				219863FF1ADD7E1D00D9E05E /* FilterViewController.swift */,
+				219864011ADD8ABA00D9E05E /* FilterCell.swift */,
 				212285EA1AD7D5AF00CCF253 /* LaunchScreen.xib */,
 				212285E01AD7D5AF00CCF253 /* ExchangeAGram.xcdatamodeld */,
 				212285DC1AD7D5AF00CCF253 /* Supporting Files */,
@@ -93,6 +108,7 @@
 		212285DC1AD7D5AF00CCF253 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				212286051AD7ECBB00CCF253 /* MobileCoreServices.framework */,
 				212285DD1AD7D5AF00CCF253 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -164,6 +180,7 @@
 				TargetAttributes = {
 					212285D81AD7D5AF00CCF253 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 23PEB6XK3L;
 					};
 					212285F01AD7D5AF00CCF253 = {
 						CreatedOnToolsVersion = 6.3;
@@ -215,8 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				212285E41AD7D5AF00CCF253 /* ViewController.swift in Sources */,
+				219864021ADD8ABA00D9E05E /* FilterCell.swift in Sources */,
+				219864001ADD7E1D00D9E05E /* FilterViewController.swift in Sources */,
 				212285DF1AD7D5AF00CCF253 /* AppDelegate.swift in Sources */,
+				212286041AD7EA4200CCF253 /* FeedCell.swift in Sources */,
+				212286021AD7DCF000CCF253 /* FeedViewController.swift in Sources */,
+				211B366A1AD86AE8008B2C46 /* FeedItem.swift in Sources */,
 				212285E21AD7D5AF00CCF253 /* ExchangeAGram.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ExchangeAGram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +378,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ExchangeAGram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -415,6 +438,7 @@
 				212285FD1AD7D5AF00CCF253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		212285FE1AD7D5AF00CCF253 /* Build configuration list for PBXNativeTarget "ExchangeAGramTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +447,7 @@
 				212286001AD7D5AF00CCF253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
